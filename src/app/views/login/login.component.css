@@ -1,0 +1,46 @@
+.just-center {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-box {
+    height: 100vh;
+    
+}
+
+.box-login {
+    height: 50%;
+    width: 40%;
+    box-shadow: 0px 24px 24px 4px #cccccc6e;
+    margin-top: 7% !important;
+    padding: 0px 15px 15px;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.box-login form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-login form input {
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.text-login {
+    background-color: #fff;
+}

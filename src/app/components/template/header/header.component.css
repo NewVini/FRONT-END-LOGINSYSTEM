@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: #161618;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#0aca0a;
+}

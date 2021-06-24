@@ -1,0 +1,45 @@
+.mat-drawer-container {
+    background-color: none !important;
+    color: rgba(0,0,0,.87);
+}
+
+.toglebtn {
+    position: absolute;
+    color: #0aca0a;
+    left: 17%;
+    top: 1.7%;
+    border: 1px solid #0aca0a;
+    height: 37px;
+    width: 0px;
+    border-radius: 39%;
+    cursor: pointer;
+}
+
+.sidenav {
+    width: 170px;
+    color: #fff;
+    background: #161618
+}
+
+
+.sidenav a {
+    color: #fff;
+}
+
+.content {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.li-item {
+    transition: ease-in-out 250ms;
+}
+
+.li-item:hover {
+    border-left: 4px solid #0aca0a;
+    background: #cccccc14;
+}
+
+li {
+    list-style: none;
+}

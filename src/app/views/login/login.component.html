@@ -1,0 +1,16 @@
+<mat-card class="just-center login-box">
+    <div class="box-login just-center">
+        <form action="">
+            <div class="text-login">
+                <h1>Fazer login</h1>
+            </div>
+            <mat-form-field>
+                <input matInput type="text" placeholder="E-mail" [(ngModel)]="forms.email" name="email">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" placeholder="Senha" [(ngModel)]="forms.password" name="price">
+            </mat-form-field>
+            <button class="btn-login" mat-raised-button (click)="logar()">Logar</button>
+        </form>
+    </div>
+</mat-card>
